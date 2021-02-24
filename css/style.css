@@ -1,0 +1,410 @@
+/*START font-face roboto*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Light.eot');
+    src: url('../font/roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Light.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Light.woff') format('woff'),
+        url('../font/roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Regular.eot');
+    src: url('../font/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Regular.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Regular.woff') format('woff'),
+        url('../font/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Medium.eot');
+    src: url('../font/roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Medium.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Medium.woff') format('woff'),
+        url('../font/roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Bold.eot');
+    src: url('../font/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Bold.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Bold.woff') format('woff'),
+        url('../font/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/roboto/Roboto-Black.eot');
+    src: url('../font/roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/roboto/Roboto-Black.woff2') format('woff2'),
+        url('../font/roboto/Roboto-Black.woff') format('woff'),
+        url('../font/roboto/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*END font-face roboto*/
+
+/*START font-face Montserrat*/
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-Thin.eot');
+    src: url('../font/montserrat/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-Thin.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-Thin.woff') format('woff'),
+        url('../font/montserrat/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-Regular.eot');
+    src: url('../font/montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-Regular.woff') format('woff'),
+        url('../font/montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-Medium.eot');
+    src: url('../font/montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-Medium.woff') format('woff'),
+        url('../font/montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-SemiBold.eot');
+    src: url('../font/montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-SemiBold.woff') format('woff'),
+        url('../font/montserrat/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-Light.eot');
+    src: url('../font/montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-Light.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-Light.woff') format('woff'),
+        url('../font/montserrat/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-ExtraLight.eot');
+    src: url('../font/montserrat/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-ExtraLight.woff') format('woff'),
+        url('../font/montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-ExtraBold.eot');
+    src: url('../font/montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-ExtraBold.woff') format('woff'),
+        url('../font/montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-Bold.eot');
+    src: url('../font/montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-Bold.woff') format('woff'),
+        url('../font/montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/montserrat/Montserrat-Black.eot');
+    src: url('../font/montserrat/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/montserrat/Montserrat-Black.woff2') format('woff2'),
+        url('../font/montserrat/Montserrat-Black.woff') format('woff'),
+        url('../font/montserrat/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*END font-face Montserrat*/
+
+/*START Global*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Montserrat,
+        sans-serif;
+}
+
+#app {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-style-between {
+    justify-content: space-between;
+}
+
+.content-style-evenly {
+    justify-content: space-evenly;
+}
+
+/*END Global*/
+
+/*START Bg-Color*/
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+.bg-red {
+    background-color: #d92950;
+}
+
+.bg-red-light {
+    background-color: #ea0000;
+}
+
+.bg-gray {
+    background-color: #f1f0f3;
+}
+
+.bg-gray-30 {
+    background-color: #dfdee1;
+}
+
+.bg-dark-gray-30 {
+    background-color: #424345;
+}
+
+.bg-dark-gray-50 {
+    background-color: #2d2d2d;
+}
+
+.bg-dark {
+    background-color: #1d1b25;
+}
+
+.bg-purpele-dark {
+    background-color: #341f41;
+}
+
+.bg-yellow {
+    background-color: #ffe64d;
+}
+
+/*END Bg-Color*/
+
+/*START Nav bar end Header*/
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    padding: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-bar a:hover {
+    border-bottom: solid 2px #ff046b;
+    /* transition: all 0.2s ease-out; */
+}
+
+.nav-active {
+    border-bottom: solid 2px #ff046b;
+}
+
+.box-logo {
+    padding-top: 5px;
+}
+
+.logo {
+    width: 12%;
+}
+
+.my-header {
+    height: 12vh;
+    margin: 0;
+    padding: 0;
+}
+
+/*END Nav bar end Header*/
+
+/*START hero*/
+
+.my-hero {
+    height: 120vh;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-image: url("../img/hero-background.jpg");
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.transform-text-main-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 4.5rem;
+    padding: 15px 0;
+}
+
+.section-btn-hero {
+    justify-content: center;
+}
+
+.section-btn-hero div {
+    margin: 0 10px;
+}
+
+.btn {
+    text-decoration: none;
+    border-width: 2px;
+    border-radius: 15px;
+    border: solid 2px #ffffff;
+    padding: 15px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.btn-out-line-hover:hover {
+    background-color: rgba(217, 41, 80, .5);
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    transition: all 0.2s ease-out;
+}
+
+/*END hero*/
+
+.my-main {
+    /* height: 50vh; */
+    margin: 0;
+    padding: 0;
+}
+
+.my-footer {
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+}
+
+/*START TEXT COLOR*/
+
+.text-gold {
+    color: #ffe64d;
+}
+
+.text-red {
+    color: #d92950;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*Start Block size*/
+.block-55 {
+    width: 55%;
+    margin: 50px auto;
+}
+
+.bloc-techno ul {
+    list-style-type: none;
+}
+
+.bloc-techno ul img {
+    opacity: 0.5;
+    width: 45%;
+}
