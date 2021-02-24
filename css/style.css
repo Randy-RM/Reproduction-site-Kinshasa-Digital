@@ -194,6 +194,19 @@ p {
         sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
 #app {
     margin: 0;
     padding: 0;
@@ -431,7 +444,7 @@ p {
 
 .bloc-dev-qualifies h2 {
     font-size: 2.5rem;
-    width: 85%;
+    width: 95%;
 }
 
 .bloc-dev-items {
@@ -442,8 +455,27 @@ p {
 .bloc-dev-items .dev-item {
     height: 30vh;
     width: 50%;
-    padding-top: 5vh;
     justify-content: center;
+    align-items: center;
+}
+
+.paper {
+    width: 50px;
+}
+
+.cup {
+    width: 40px;
+}
+
+/* .dev-item p {
+    border-bottom: solid 2px #ea0000;
+    padding-bottom: 20px;
+    margin-bottom: -10px;
+} */
+
+.my-line {
+    border-bottom: solid 2px #ea0000;
+    width: 50px;
 }
 
 .img-back {
