@@ -203,6 +203,10 @@ h6 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
 h5 {
     font-size: 1.25rem;
 }
@@ -397,6 +401,9 @@ h5 {
 }
 
 /*START TEXT COLOR*/
+.text-light {
+    color: #ffffff;
+}
 
 .text-gold {
     color: #ffe64d;
@@ -443,7 +450,6 @@ h5 {
 }
 
 .bloc-dev-qualifies h2 {
-    font-size: 2.5rem;
     width: 95%;
 }
 
@@ -501,3 +507,7 @@ h5 {
 }
 
 /*END Dev-qualifies*/
+
+.avonr-plaisir {
+    padding: 100px 0;
+}
