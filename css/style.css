@@ -323,7 +323,7 @@ p {
 
 .my-hero {
     height: 120vh;
-    margin: 12vh 0 0 0;
+    margin: 11.5vh 0 0 0;
     padding: 0;
     color: #ffffff;
     background-image: url("../img/hero-background.jpg");
@@ -401,11 +401,16 @@ p {
     text-align: center;
 }
 
-/*Start Block size*/
+/*END TEXT COLOR*/
+
+/*START Block size*/
+
 .block-55 {
     width: 55%;
     margin: 50px auto;
 }
+
+/*START Block techno*/
 
 .bloc-techno ul {
     list-style-type: none;
@@ -416,6 +421,10 @@ p {
     width: 45%;
 }
 
+/*END Block techno*/
+
+/*START Dev-qualifies*/
+
 .bloc-dev-qualifies {
     margin: 80px 0 80px -100px;
 }
@@ -423,11 +432,18 @@ p {
 .bloc-dev-qualifies h2 {
     font-size: 2.5rem;
     width: 85%;
-    background-color: blueviolet;
 }
 
 .bloc-dev-items {
-    margin-left: 50px;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+
+.bloc-dev-items .dev-item {
+    height: 30vh;
+    width: 50%;
+    padding-top: 5vh;
+    justify-content: center;
 }
 
 .img-back {
@@ -451,3 +467,5 @@ p {
 .my-width-40 {
     width: 40%;
 }
+
+/*END Dev-qualifies*/
