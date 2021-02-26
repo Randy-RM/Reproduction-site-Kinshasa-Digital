@@ -269,6 +269,10 @@ h5 {
     justify-content: space-evenly;
 }
 
+.content-style-center {
+    justify-content: center;
+}
+
 .padding-top-down-4 {
     padding: 40px 0;
 }
@@ -279,6 +283,14 @@ h5 {
 
 .margin-left-right-moins-70 {
     margin: 0 -70px;
+}
+
+.margin-left-right-20 {
+    margin: 0 20px;
+}
+
+.margin-all-10 {
+    margin: 10px;
 }
 
 .radius-all-10 {
@@ -319,6 +331,10 @@ h5 {
 
 .bg-red-light {
     background-color: #ea0000;
+}
+
+.bg-red-dark {
+    background-color: #bf0051;
 }
 
 .bg-gray {
@@ -417,7 +433,11 @@ h5 {
 }
 
 .iconify {
-    width: 50%;
+    width: 30%;
+}
+
+.iconify-min {
+    width: 60%;
 }
 
 /*START img LOGO*/
@@ -427,7 +447,7 @@ h5 {
 .my-hero {
     height: 120vh;
     margin: 11.5vh 0 0 0;
-    padding: 0;
+    padding: 0 0 20vh 0;
     color: #ffffff;
     background-image: url("../img/hero-background.jpg");
     /* background-position: center; */
@@ -486,6 +506,13 @@ h5 {
     transition: all 0.2s ease-out;
 }
 
+.btn-out-line-red-2-hover:hover {
+    background-color: rgba(217, 41, 80, 0);
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    transition: all 0.2s ease-out;
+}
+
 /*END hero*/
 
 .my-main {
@@ -539,6 +566,7 @@ h5 {
 
 .bloc-techno ul {
     list-style-type: none;
+    width: 80%;
 }
 
 .bloc-techno ul img {
@@ -578,6 +606,28 @@ h5 {
     width: 40px;
 }
 
+.bloc-bordered-1 {
+    border: solid 1px #ffffff;
+    padding: 8px 5px 0px 5px;
+    height: 50px;
+    width: 50px;
+    margin: 0 40px;
+}
+
+.bloc-50-px {
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    margin: 10px -100px;
+}
+
+.bloc-50-px-min-width {
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    margin: 10px -50px;
+}
+
 /* .dev-item p {
     border-bottom: solid 2px #ea0000;
     padding-bottom: 20px;
@@ -603,6 +653,10 @@ h5 {
     margin-left: 270px;
 }
 
+.my-width-100 {
+    width: 100%;
+}
+
 .my-width-60 {
     width: 60%;
 }
@@ -625,6 +679,10 @@ h5 {
 
 .my-width-20 {
     width: 20%;
+}
+
+.my-heigth-50 {
+    height: 40vh;
 }
 
 /*END Dev-qualifies*/
