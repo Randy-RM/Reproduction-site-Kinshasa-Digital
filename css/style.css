@@ -254,8 +254,21 @@ h5 {
     font-size: 1.25rem;
 }
 
+h6 {
+    font-size: 1rem;
+}
+
 a {
     text-decoration: none;
+}
+
+address {
+    font-style: normal;
+    line-height: inherit;
+}
+
+footer {
+    font-size: 1.4rem;
 }
 
 #app {
@@ -301,6 +314,10 @@ a {
 
 .content-style-center {
     justify-content: center;
+}
+
+.content-style-end {
+    justify-content: flex-end;
 }
 
 .item-style-end {
@@ -353,6 +370,10 @@ a {
 
 .margin-top-down-40 {
     padding: 0 0 40px 0;
+}
+
+.margin-top-down-20 {
+    padding: 20px 0 20px 0;
 }
 
 .radius-all-10 {
@@ -606,6 +627,34 @@ a {
     ;
 }
 
+.input-coller-right {
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    ;
+}
+
+.btn-coller-left {
+    text-decoration: none;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    padding: 20px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.btn-coller-left:hover {
+    background-color: rgba(217, 41, 80, 0);
+}
+
 /*END Form*/
 
 .my-main {
@@ -615,9 +664,8 @@ a {
 }
 
 .my-footer {
-    height: 40vh;
     margin: 0;
-    padding: 0;
+    padding: 30vh 0 11.5vh 0;
 }
 
 /*START TEXT COLOR*/
@@ -803,7 +851,7 @@ a {
     width: 20%;
 }
 
-.my-heigth-50 {
+.my-heigth-40 {
     height: 40vh;
 }
 
