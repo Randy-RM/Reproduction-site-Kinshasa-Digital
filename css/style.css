@@ -278,10 +278,17 @@ a {
     flex-direction: row;
 }
 
-.link {
+.link-bold {
     font-weight: bold;
     color: #d92950;
-    ;
+}
+
+.link-normal {
+    color: #d92950;
+}
+
+.content-style-left {
+    justify-content: start;
 }
 
 .content-style-between {
@@ -294,6 +301,18 @@ a {
 
 .content-style-center {
     justify-content: center;
+}
+
+.item-style-end {
+    align-items: flex-end;
+}
+
+.item-style-top {
+    align-items: flex-start;
+}
+
+.item-style-center {
+    align-items: center;
 }
 
 .padding-left-right-2 {
@@ -326,6 +345,10 @@ a {
 
 .margin-all-10 {
     margin: 10px;
+}
+
+.margin-all-40 {
+    margin: 40px;
 }
 
 .margin-top-down-40 {
@@ -509,6 +532,9 @@ a {
     margin: 0 10px;
 }
 
+/*END hero*/
+/*Start Form*/
+
 .btn {
     text-decoration: none;
     border-width: 2px;
@@ -550,6 +576,13 @@ a {
     transition: all 0.2s ease-out;
 }
 
+.btn-out-line-red-text-light-hover:hover {
+    background-color: rgba(217, 41, 80, 0);
+    border: solid 2px #d92950;
+    color: #ffffff;
+    transition: all 0.2s ease-out;
+}
+
 .btn-out-line-red-2-hover:hover {
     background-color: rgba(217, 41, 80, 0);
     border: solid 2px #ffffff;
@@ -557,7 +590,23 @@ a {
     transition: all 0.2s ease-out;
 }
 
-/*END hero*/
+.form-input {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    ;
+}
+
+/*END Form*/
 
 .my-main {
     /* height: 50vh; */
@@ -588,6 +637,10 @@ a {
     color: #424345;
 }
 
+.text-gray-50 {
+    color: #dbdbdc;
+}
+
 .text-center {
     text-align: center;
 }
@@ -595,6 +648,10 @@ a {
 .text-ubuntu-font {
     font-family: 'Ubuntu Mono';
     font-size: 1.3rem;
+}
+
+.text-bold {
+    font-weight: bold;
 }
 
 .text-big-1 {
@@ -708,6 +765,18 @@ a {
 
 .my-width-100 {
     width: 100%;
+}
+
+.my-width-93 {
+    width: 93%;
+}
+
+.my-width-90 {
+    width: 90%;
+}
+
+.my-width-80 {
+    width: 80%;
 }
 
 .my-width-60 {
