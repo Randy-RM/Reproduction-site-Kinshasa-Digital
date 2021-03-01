@@ -300,6 +300,10 @@ footer {
     color: #d92950;
 }
 
+.my-inlin-display {
+    display: inline;
+}
+
 .content-style-left {
     justify-content: start;
 }
@@ -872,8 +876,16 @@ footer {
     width: 40%;
 }
 
+.my-width-32 {
+    width: 32%;
+}
+
 .my-width-30 {
     width: 30%;
+}
+
+.my-width-26 {
+    width: 26%;
 }
 
 .my-width-20 {
@@ -920,4 +932,42 @@ footer {
 
 .twetter-row {
     margin: 0 5px;
+}
+
+/**/
+
+.footer-contact {
+    color: #d92950;
+}
+
+.footer-contact a:hover {
+    color: #ff046b;
+}
+
+.social-media a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.social-media a i {
+    color: #d92950;
+}
+
+.social-media a i:hover {
+    /* color: #ae3753; */
+    color: #ff046b;
+}
+
+.under-line span {
+    height: 3px;
+    width: 0%;
+    display: block;
+    transition: all 0.4s ease-out;
+}
+
+.under-line:hover span {
+    height: 3px;
+    width: 100%;
+    background-color: #ff046b;
+    display: block;
 }
