@@ -300,6 +300,10 @@ footer {
     color: #d92950;
 }
 
+.my-height-10 {
+    height: 10px;
+}
+
 .my-inlin-display {
     display: inline;
 }
@@ -322,6 +326,10 @@ footer {
 
 .content-style-end {
     justify-content: flex-end;
+}
+
+.item-style-start {
+    align-items: flex-start;
 }
 
 .item-style-end {
@@ -362,6 +370,10 @@ footer {
 
 .padding-top-down-10 {
     padding: 100px 0;
+}
+
+.margin-top-moins-10 {
+    margin-top: -10px;
 }
 
 .margin-left-right-moins-70 {
@@ -430,6 +442,10 @@ footer {
 
 .bg-red-light {
     background-color: #ea0000;
+}
+
+.bg-pink {
+    background-color: #ed0058;
 }
 
 .bg-red-dark {
@@ -726,6 +742,10 @@ footer {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .text-ubuntu-font {
     font-family: 'Ubuntu Mono';
     font-size: 1.3rem;
@@ -735,8 +755,16 @@ footer {
     font-weight: bold;
 }
 
+.text-lighter {
+    font-weight: 100;
+}
+
 .text-big-1 {
     font-size: 3rem;
+}
+
+.text-mini-1 {
+    font-size: 0.8rem;
 }
 
 .text-ul-spec {
