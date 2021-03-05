@@ -211,6 +211,7 @@ body {
     background-color: #ffffff;
     font-family: Roboto, sans-serif;
     line-height: 1.5;
+    color: #424345;
 }
 
 * {
@@ -233,6 +234,14 @@ h1,
 h2,
 h3,
 h4,
+h5 {
+    line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
 h5,
 h6 {
     font-weight: 700;
@@ -247,7 +256,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 h5 {
@@ -291,6 +300,7 @@ footer {
     flex-direction: row;
 }
 
+
 .link-bold {
     font-weight: bold;
     color: #d92950;
@@ -298,6 +308,10 @@ footer {
 
 .link-normal {
     color: #d92950;
+}
+
+.link-dark-hovered:hover {
+    color: #ff046b;
 }
 
 .my-height-10 {
@@ -352,6 +366,10 @@ footer {
     padding: 0 40px;
 }
 
+.padding-left-right-6 {
+    padding: 0 60px;
+}
+
 .padding-top-down-2 {
     padding: 20px 0;
 }
@@ -370,6 +388,18 @@ footer {
 
 .padding-top-down-10 {
     padding: 100px 0;
+}
+
+.margin-top-moins-40 {
+    margin-top: -40px;
+}
+
+.margin-top-moins-30 {
+    margin-top: -30px;
+}
+
+.margin-top-moins-20 {
+    margin-top: -20px;
 }
 
 .margin-top-moins-10 {
@@ -461,7 +491,8 @@ footer {
 }
 
 .bg-red-dark {
-    background-color: #bf0051;
+    /* background-color: #bf0051; */
+    background-color: #ae3753;
 }
 
 .bg-gray {
@@ -508,12 +539,13 @@ footer {
 .nav-bar ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style-type: none;
 }
 
 .nav-bar ul li {
     padding: 10px;
+    margin: 0 15px;
 }
 
 .nav-bar a {
@@ -556,11 +588,11 @@ footer {
 /*START img LOGO*/
 
 .box-logo {
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .logo {
-    width: 12%;
+    width: 11%;
 }
 
 .logo-20 {
