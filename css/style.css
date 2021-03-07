@@ -342,6 +342,10 @@ footer {
     justify-content: flex-end;
 }
 
+.content-style-around {
+    justify-content: space-around;
+}
+
 .item-style-start {
     align-items: flex-start;
 }
@@ -829,7 +833,7 @@ footer {
 
 .bloc-techno ul {
     list-style-type: none;
-    width: 80%;
+    width: 100%;
 }
 
 .bloc-techno ul img {
@@ -1006,6 +1010,11 @@ footer {
     margin: 0 5px;
 }
 
+.box-twetter {
+    width: 20%;
+    box-sizing: border-box;
+}
+
 /**/
 
 .footer-contact {
@@ -1055,4 +1064,8 @@ footer {
     border-radius: 25px 0 0 25px !important;
     color: #ed0058;
     text-align: left;
+}
+
+.test-border {
+    border: 2px solid #000000;
 }
